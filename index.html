@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Site</title>
+    <link rel="stylesheet" href="portfolio.css">
+    <script src="https://kit.fontawesome.com/799f4b27d9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="profile.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-solid fa-xmark" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fas fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header_text">
+
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Sunny Kumar</span><br> From Hyderabad</h1>
+
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about_col_1">
+                    <img src="pic.png">
+                </div>
+                <div class="about_col_2">
+                    <h1 class="sub_title">About Me</h1>
+                    <p>Highly motivated and exceptionally innovative Electronics and Communication Engineering graduate with expertise in 
+                        designing, developing, and optimizing complex software systems with precision and speed. Proficient in leveraging 
+                        cutting-edge technologies, with a strong foundation in programming languages, simulation tools, and software 
+                        development methodologies. Seeking a challenging role
+                          to utilize
+                         technical skills and expertise to drive innovation, collaboration, and success in a dynamic and fast-paced 
+                         environment.</p>
+                <div class="tab_titles">
+                    <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab_links onclick=" onclick="opentab('experience')">Experience</p>
+                    <p class="tab_links onclick=" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab_contents active_tab" id="skills">
+                    <ul>
+                       
+                        <li><Data>
+                             <span style="color: rgb(4, 40, 245); margin-bottom: 150px;">Programming Languages:</span> Python, JavaScript, HTML, CSS, MySQL<br>
+                             <br>
+                             <span style="color: rgb(4, 40, 245);">Cloud Computing:</span> Google Cloud Platform<br>
+                             <br>
+                             <span style="color: rgb(4, 40, 245); ">Relevent Coursework:</span> Data Structures & Algorithms,
+                           Operating Systems,
+                            Object-Oriented Programming,
+                         Problem-Polving and Analytical Skills,
+                           
+                            Web Development,
+                            Software Development
+                            </span></li>
+                        
+
+                    </ul>
+                </div>
+                <div class="tab_contents" id="experience">
+                    <ul>
+                        <li>   <span  style="color: rgb(0, 140, 255);margin-right: 20px;"> Junior Software Engineer Intern </span>
+                            <span style="color: blue;margin-right: 40px;">CodSoft </span>
+                             <span style="color: rgb(255, 187, 0);margin-right: 50px;">Hyderabad, Telangana </span>
+                             <span style="color: rgb(255, 214, 110);">02/2024 - 03/2024</span><br><br>
+                          • Improved coding productivity by 30% through innovative best practices, 
+                          resulting in high-quality software
+                          solutions and accelerated project timelines.<br><br>
+                          • Enhanced problem-solving capabilities by 25% through active participation in coding challenges and
+                          collaborative projects, driving effective solutions and innovative ideas.</li>
+
+
+
+                        <li><span style="color: rgb(0, 140, 255);margin-right: 40px;">Frontend Engineering Intern </span>  <span style="color: blue;margin-right: 40px;">Code Alpha </span> <span style="color: rgb(255, 187, 0);margin-right: 40px;">Hyderabad, Telangana </span> <span style="color: rgb(255, 214, 110);">07/2024 - 08/2024 </span><br><br>
+                            • Spearheaded code reviews, reducing technical debt by 20% and enhancing code quality.<br><br>
+                            
+                            • Partnered with cross-functional design teams to deliver seamless user 
+                            experiences, achieving 95%
+                            design-to-code accuracy.
+                         </li>
+                        
+                       
+
+                    </ul>
+                </div>
+                <div class="tab_contents" id="education">
+                    <ul>
+                        <li><span style=" color: rgb(33, 180, 156); margin-right: 35px;">Bachelors of  Technology in
+                             Electronics and Communication Engineering</span>
+                            <span style="color: rgb(255, 163, 110);">2019-2023</span>
+
+                            <br>Malla Reddy Institute Of  Engineering and Technology  <br>6.71 CGPA</li>
+                        <li> <span style="color: rgb(33, 180, 156); margin-right: 180px;">Intermediate (Class 12Th)</span>
+                            <span style="color: rgb(255, 214, 110); ">2017-2019</span>
+
+
+                            <br> Narayana Junior College <br>92.4 %</li>
+
+                        <li><span style="color: rgb(33, 180, 156); margin-right: 200px;">High School (Class 10Th)</span> 
+                             <span style="color: rgb(255, 214, 110); margin-right: 30px; ">2017
+                        </span><br> St.Joseph's High School <br>8.7 CGPA</li>
+                       
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub_title">My Services</h1>
+        <div class="services_list">
+            <div>
+                <i class="fa-solid fa-globe"></i>
+                <h2>Frontend Development</h2>
+    
+  
+                <p>• Building responsive, interactive, and user-friendly web
+                    applications using HTML, CSS, JavaScript, and React.</p>
+                    <br>
+                    <p>  • Creating reusable UI components, optimizing code for performance, 
+                        and ensuring cross-browser compatibility.</p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-uncharted"></i>
+                <h2>Software Engineering</h2>
+                <p>  •  Applying software engineering principles, patterns, and best practices to develop high-quality software.
+                </p><br>
+                <p>  •  Ensuring software reliability, maintainability, and scalability.
+                </p>
+                    <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cloud"></i>
+                
+                <h2>Cloud Computing</h2>
+                <p>    • Developing cloud-based software solutions using Google Cloud Platform (GCP).
+                </p><br>
+                <p>    • Designing and deploying scalable, secure, and efficient cloud architectures.
+                </p>
+                    <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub_title">My Work</h1>
+        <div class="work_list">
+            <div class="work">
+                <img src="weather.jpg">
+                <div class="layer">
+
+                    <h3>Weather API</h3>
+              
+                        <p>• A weather API can provide location-based weather data, allowing users to receive weather updates specific to their area.
+                        </p>
+                        <br>
+<p> •  It provides access to accurate and up-to-date weather forecasts, enabling users to plan accordingly.
+</p>                    <a href="https://weatherapikumar.netlify.app/"><i class="fa-solid fa-arrow-up-right-from-square"> <p>View </p></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="local.avif">
+                <div class="layer">
+
+                    <h3>Local Chat System</h3>
+                    <p>• A local chat system enables real-time communication between users, allowing for instant messaging and feedback.</p>
+                    <br><p>• It functions offline, making it ideal for situations where internet connectivity is unreliable or unavailable.
+                    </p>
+                         <a href="https://github.com/sunnykumar44/Local-Chat-System.git"><i class="fa-solid fa-arrow-up-right-from-square"><p>View</p></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="bot chat.jpg">
+                <div class="layer">
+
+                    <h3>Chat BOT</h3>
+                    <p>• A Chatbot provides automated responses to user queries, freeing up human resources for more complex tasks.</p>
+                        
+                    <br>
+                    <p>
+                        • It offers basic user support, answering frequently asked questions and helping users with simple issues.
+                    </p><a href="https://github.com/sunnykumar44/Simple-bot.git"><i class="fa-solid fa-arrow-up-right-from-square"><p>View </p></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/sunnykumar44" class="btn">See More</a>
+    </div>
+</div>
+
+
+
+
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact_left">
+                <h1 class="sub_title">Contact Me</h1>
+                <p><i class="fa-sharp fa-solid fa-paper-plane"></i>sunnyskumar70@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"></i>+91-9346136651</p>
+                <div class="social_icons ">
+                    <a href="https://github.com/sunnykumar44"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.instagram.com/sunnys_kumar"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/sunnykumar44"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+                <a href="Sunny Kumar.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            
+                <form name="my_form" action="https://api.web3forms.com/submit" method="POST" class="contact_left" onsubmit="return" false>
+                    <div class="contact_right">
+                        <h2>Message Box</h2>
+                        <hr>
+                    </div>
+                    <input type="hidden" name="access_key" value="ac0bfc37-a68f-470c-9742-30f80c08fe97">
+                    <input type="text" name="Name" placeholder="Your Name" class="contact_inputs" required="">
+                    <input type="number" name="Mob No:" placeholder="Your number" class="contact_inputs" required="">
+                    <input type="email" name="Email" placeholder="Your Email" class="contact_inputs" required="">
+                    
+                    <textarea name="message" placeholder="Your Message" class="contact_inputs" required=""></textarea>
+                    
+                    
+                    <button class="btn btn2" id="btn1" type="submit">Submit</button>
+                       
+                    <span id="msg"></span>
+
+
+
+                    <div>*PLEASE RELOAD THE PAGE AFTER SUBMISSION*</div>
+                    </form>
+                   
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p  style="color: rgb(255, 166, 0);">Thanks for taking a peek at my creative journey! I'm glad you're here <i class="fa-sharp fa-solid fa-heart"></i> </p>
+    </div>
+</div>
+
+
+
+    <script>
+        var tablinks=document.getElementsByClassName("tab_links")
+        var tabcontents=document.getElementsByClassName("tab_contents")
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active_link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active_tab")
+            }
+            event.currentTarget.classList.add("active_link")
+            document.getElementById(tabname).classList.add("active_tab")
+
+
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu")
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+
+   
+
+
+
+<script>
+    
+    form=document.forms("my_form")
+    const mesgs=document.getElementById('msg')
+    let btn =document.getElementById('btn1').addEventListener('click',function(event){
+        mesgs.innerText="SENT SUCCESSFULLY"
+        event.preventDefault()
+        setTimeout(()=>{
+            mesgs.innerText=''
+            form.reset()},4000)
+        
+        })
+  
+    
+
+
+</script>
+<script>
+    btn=document.getElementById('btn').addEventListener('click',function(event){
+        mesgs.innerText="SENT SUCCESSFULLY"
+        event.preventDefault()})
+    
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
